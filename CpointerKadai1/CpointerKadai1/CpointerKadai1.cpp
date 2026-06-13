@@ -14,10 +14,7 @@ class MyClass final
 		std::cout << "破棄" << std::endl; 
 	}
 
-    public:
-	std::unique_ptr<MyClass> ptr_ = {};
-	int value_ = 0;
-
+    
 };
 int main()
 {
